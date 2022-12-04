@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    tools:context=".MainActivity"
+    tools:viewBindingIgnore="true"
+    tools:ignore="MissingClass">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_kertas"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginLeft="90dp"
+                android:layout_marginRight="100dp"
+                android:fontFamily="@font/comicneue_bold"
+                android:gravity="center"
+                android:rotation="-10"
+                android:text="kertas"
+                android:textColor="@color/orange"
+                android:textSize="40sp" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_gunting"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:fontFamily="@font/comicneue_bold"
+                android:gravity="center"
+                android:rotation="-10"
+                android:text="@string/tv_gunting"
+                android:textColor="@color/dark_green"
+                android:textSize="40sp" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_batu"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="100dp"
+                android:fontFamily="@font/comicneue_bold"
+                android:gravity="center_horizontal"
+                android:rotation="-10"
+                android:text="batu"
+                android:textColor="@color/purple_500"
+                android:textSize="40dp" />
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tv_pemain"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/comicneue_bold"
+                    android:text="kamu                               com"
+                    android:textColor="@color/blue"
+                    android:textSize="20sp" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/iv_batu"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/batu"
+                    android:text="batu"
+                    />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/iv_batucom"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="230dp"
+                    android:src="@drawable/batu" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/iv_gunting"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/gunting" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tv_vs"
+                    android:layout_width="230dp"
+                    android:layout_height="50dp"
+                    android:rotation="0"
+                    android:gravity="center"
+                    android:text="@string/tv_vs"
+                    android:fontFamily="@font/comicneue_bold"
+                    android:textColor="@color/red"
+                    android:textSize="25sp" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/iv_guntingcom"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/gunting" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/iv_kertas"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/kertas" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/iv_kertascom"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="230dp"
+                    android:src="@drawable/kertas" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/iv_refresh"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="320dp"
+                    android:src="@drawable/refresh" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    </ScrollView>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

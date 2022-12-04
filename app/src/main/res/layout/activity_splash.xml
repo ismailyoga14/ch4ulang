@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="30dp"
+    tools:ignore="MissingClass">
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/tv_kertas"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="100dp"
+            android:fontFamily="@font/comicneue_bold"
+            android:gravity="center"
+            android:rotation="-15"
+            android:text="kertas"
+            android:textColor="@color/orange"
+            android:textSize="40sp" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/tv_gunting"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:fontFamily="@font/comicneue_bold"
+            android:gravity="center"
+            android:rotation="-15"
+            android:text="@string/tv_gunting"
+            android:textColor="@color/dark_green"
+            android:textSize="40sp" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/tv_batu"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:fontFamily="@font/comicneue_bold"
+            android:gravity="center_horizontal"
+            android:rotation="-15"
+            android:text="batu"
+            android:textColor="@color/purple_500"
+            android:textSize="40dp" />
+
+    </android.support.v7.widget.LinearLayoutCompat>
+</android.support.v7.widget.LinearLayoutCompat>

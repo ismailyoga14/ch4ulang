@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">challenge ch 4</string>
+    <string name="tv_welcome">!!!WELCOME TO SUIT JEPANG!!</string>
+    <string name="btn_welcome">START GAME</string>
+    <string name="tv_kertas">kertas </string>
+    <string name="tv_gunting">gunting</string>
+    <string name="tv_batu">batu</string>
+    <string name="tv_pemain">kamu                               com</string>
+    <string name="tv_vs">vs</string>
+    <string name="hasil1">kamu menang</string>
+    <string name="hasil2">com menang</string>
+    <string name="hasil3">draw</string>
+</resources>
