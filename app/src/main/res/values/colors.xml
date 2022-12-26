@@ -10,11 +10,13 @@
     <color name="blue">#FF3390EC</color>
     <color name="grey">#FFA1A5A7</color>
     <color name="yellow">#FFEE93</color>
+    <color name="yellow1">#F39c15</color>
     <color name="green">#ADF7B6</color>
     <color name="red">#FF0000</color>
     <color name="orange">#f36C16</color>
     <color name="dark_green">#16A085</color>
     <color name="emerald">#2ECC27</color>
+    <color name="ungu">#9B59B6</color>
 
 
 </resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="75dp"
+    android:gravity="center_horizontal"
+    android:layout_gravity="center|center_vertical|center_horizontal">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/comicneue_bold"
+                android:gravity="center"
+                android:text="Hasil Permainan"
+                android:textSize="25sp" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/red"
+                android:textSize="40sp"
+                android:fontFamily="@font/comicneue_bold"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_playAgain"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_ellipse_selector"
+                android:backgroundTint="@color/ungu"
+                android:text="main lagi"
+                android:textSize="20sp"
+                android:fontFamily="@font/comicneue_bold"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_toMenu"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_ellipse_selector"
+                android:backgroundTint="@color/yellow1"
+                android:fontFamily="@font/comicneue_bold"
+                android:text="Kembali ke menu" />
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </FrameLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

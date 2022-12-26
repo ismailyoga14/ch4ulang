@@ -1,46 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:ignore="MissingClass">
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <android.support.v7.widget.LinearLayoutCompat
+        <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_gravity="center"
             android:orientation="vertical"
             android:padding="50dp">
 
-            <android.support.v7.widget.AppCompatTextView
+            <TextView
                 android:id="@+id/tv_welcome"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="center"
-                android:paddingVertical="25dp"
-                android:paddingTop="175sp"
-                android:textSize="20sp"
-                android:text="@string/tv_welcome"
-                android:textStyle="bold"/>
+                android:text="Pilih Lawanmu"
+                android:textSize="38dp"
+                android:fontFamily="@font/comicneue_bold"
+                android:gravity="center"/>
 
-            <android.support.v7.widget.AppCompatButton
-                android:id="@+id/btn_welcome"
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/iv_lawan_pemain"
+                android:layout_width="220dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/landing_page1"
+                android:layout_gravity="center"/>
+            <TextView
+                android:id="@+id/tv_lawan_pemain"
                 android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/border"
-                android:backgroundTint="@color/blue"
+                android:layout_height="wrap_content"
+                tools:text="nama vs Pemain 2"
                 android:gravity="center"
-                android:text="@string/btn_welcome"
-                android:textColor="@color/white"
-                android:onClick="buttonOnClick"/>
-        </android.support.v7.widget.LinearLayoutCompat>
+                android:textSize="25sp"
+                android:fontFamily="@font/comicneue_bold"/>
+
+            <ImageView
+                android:id="@+id/iv_lawan_com"
+                android:layout_width="220dp"
+                android:layout_height="150dp"
+                android:background="@drawable/landing_page2"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/tv_lawan_com"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="nama vs COM"
+                android:textSize="25sp"
+                android:fontFamily="@font/comicneue_bold"
+                android:gravity="center"/>
 
 
-    </ScrollView>
-</android.support.v7.widget.LinearLayoutCompat>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

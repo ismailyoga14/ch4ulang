@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="15dp"
+    android:layout_margin="25dp"
     tools:context=".MainActivity"
     tools:viewBindingIgnore="true"
     tools:ignore="MissingClass">
@@ -18,60 +18,46 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <androidx.appcompat.widget.AppCompatTextView
-                android:id="@+id/tv_kertas"
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:layout_marginTop="60dp"
-                android:layout_marginLeft="90dp"
-                android:layout_marginRight="100dp"
-                android:fontFamily="@font/comicneue_bold"
-                android:gravity="center"
-                android:rotation="-10"
-                android:text="kertas"
-                android:textColor="@color/orange"
-                android:textSize="40sp" />
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/iv_close"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="300dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/close"/>
 
-            <androidx.appcompat.widget.AppCompatTextView
-                android:id="@+id/tv_gunting"
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:fontFamily="@font/comicneue_bold"
-                android:gravity="center"
-                android:rotation="-10"
-                android:text="@string/tv_gunting"
-                android:textColor="@color/dark_green"
-                android:textSize="40sp" />
-
-            <androidx.appcompat.widget.AppCompatTextView
-                android:id="@+id/tv_batu"
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:layout_marginLeft="100dp"
-                android:layout_marginRight="100dp"
-                android:fontFamily="@font/comicneue_bold"
-                android:gravity="center_horizontal"
-                android:rotation="-10"
-                android:text="batu"
-                android:textColor="@color/purple_500"
-                android:textSize="40dp" />
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="220dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:background="@drawable/splash_screen1"/>
 
             <androidx.appcompat.widget.LinearLayoutCompat
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:layout_marginTop="10dp"
                 android:orientation="horizontal">
 
                 <androidx.appcompat.widget.AppCompatTextView
                     android:id="@+id/tv_pemain"
-                    android:layout_width="match_parent"
+                    android:layout_width="60dp"
                     android:layout_height="40dp"
-                    android:layout_marginLeft="30dp"
+                    android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:fontFamily="@font/comicneue_bold"
-                    android:text="kamu                               com"
+                    android:text="kamu"
                     android:textColor="@color/blue"
                     android:textSize="20sp" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tv_com"
+                    android:layout_width="60dp"
+                    android:layout_height="40dp"
+                    android:text="COM"
+                    android:layout_marginLeft="220dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/comicneue_bold"
+                    android:textColor="@color/blue"/>
             </androidx.appcompat.widget.LinearLayoutCompat>
 
 
@@ -92,7 +78,7 @@
                     android:id="@+id/iv_batucom"
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:layout_marginLeft="230dp"
+                    android:layout_marginLeft="200dp"
                     android:src="@drawable/batu" />
             </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -109,7 +95,7 @@
 
                 <androidx.appcompat.widget.AppCompatTextView
                     android:id="@+id/tv_vs"
-                    android:layout_width="230dp"
+                    android:layout_width="200dp"
                     android:layout_height="50dp"
                     android:rotation="0"
                     android:gravity="center"
@@ -143,7 +129,7 @@
                     android:id="@+id/iv_kertascom"
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:layout_marginLeft="230dp"
+                    android:layout_marginLeft="200dp"
                     android:src="@drawable/kertas" />
 
             </androidx.appcompat.widget.LinearLayoutCompat>
@@ -158,7 +144,7 @@
                     android:id="@+id/iv_refresh"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
-                    android:layout_marginLeft="320dp"
+                    android:layout_marginLeft="300dp"
                     android:src="@drawable/refresh" />
             </androidx.appcompat.widget.LinearLayoutCompat>
 

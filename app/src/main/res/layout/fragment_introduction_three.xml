@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fr_content_three"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IntroductionOneFragment">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/landing_page3" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_landingpage3"
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="360dp"
+        android:fontFamily="@font/comicneue_bold"
+        android:gravity="center_horizontal"
+        android:text="@string/tv_lamdingpage3"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/et_nama"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="410dp" />
+
+    <Button
+        android:id="@+id/btn_mulai"
+        android:layout_width="101dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginRight="20dp"
+        android:text="next"
+        android:backgroundTint="@color/black"
+        android:textColor="@android:color/white" />
+
+    <!--    <androidx.appcompat.widget.AppCompatButton-->
+<!--        android:id="@+id/btn_mulai"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="280dp"-->
+<!--        android:layout_marginRight="20dp"-->
+<!--        android:layout_marginTop="480dp"-->
+<!--        android:onClick="buttonclick"-->
+<!--        android:background="@drawable/bg_ellipse_selector_red"-->
+<!--        android:fontFamily="@font/comicneue_bold"-->
+<!--        android:text="Next"-->
+<!--        android:textSize="20sp" />-->
+
+</FrameLayout>
