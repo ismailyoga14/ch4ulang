@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/fr_content_two"
-    tools:context=".IntroductionOneFragment">
+    tools:context=".content.IntroductionOneFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <androidx.appcompat.widget.AppCompatImageView
@@ -25,5 +25,26 @@
         android:textSize="30dp"
         android:gravity="center_horizontal"
         android:fontFamily="@font/comicneue_bold" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/bg_ellipse_selector_blue" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/bg_ellipse_selector" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/bg_ellipse_selector" />
 
 </FrameLayout>

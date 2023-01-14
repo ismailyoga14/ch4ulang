@@ -11,7 +11,7 @@ import com.google.android.material.snackbar.Snackbar
 class Welcome : AppCompatActivity() {
 
     lateinit var binding: ActivityWelcomeBinding
-    private var namapemain : String = "-"
+    private var namapemain: String = "-"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -26,19 +26,21 @@ class Welcome : AppCompatActivity() {
 
     private fun setUpView() {
         binding.apply {
-            tvLawanPemain.text = namapemain
-            tvLawanCom.text = namapemain
+            tvLawanPemain.text = "$namapemain vs pemain 2"
+            tvLawanCom.text = "$namapemain vs com"
         }
     }
 
     private fun setAction() {
         binding.apply {
             ivLawanPemain.setOnClickListener {
-                val intent = Intent(this@Welcome, MainActivity::class.java)
+                val intent = Intent(this@Welcome, MainActivity2::class.java)
+                intent.putExtra(KEY_NAME, namapemain)
                 startActivity(intent)
             }
             ivLawanCom.setOnClickListener {
                 val intent = Intent(this@Welcome, MainActivity::class.java)
+                intent.putExtra(KEY_NAME, namapemain)
                 startActivity(intent)
             }
 
@@ -51,7 +53,8 @@ class Welcome : AppCompatActivity() {
             .setActionTextColor(resources.getColor(R.color.holo_red_light))
             .show()
     }
-    companion object{
+
+    companion object {
         const val KEY_NAME = "nama"
     }
 }

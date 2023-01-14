@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fr_content_one"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/fr_content_one"
-    tools:context=".IntroductionOneFragment">
+    tools:context=".content.IntroductionOneFragment">
 
-    <!-- TODO: Update blank fragment layout -->
     <androidx.appcompat.widget.AppCompatImageView
         android:layout_width="250dp"
         android:layout_height="200dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="150dp"
-        android:background="@drawable/landing_page1"/>
+        android:background="@drawable/landing_page1" />
 
 
     <androidx.appcompat.widget.AppCompatTextView
@@ -21,9 +20,31 @@
         android:layout_height="100dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="360dp"
-        android:text="@string/tv_landingpage1"
-        android:textSize="30dp"
+        android:fontFamily="@font/comicneue_bold"
         android:gravity="center_horizontal"
-        android:fontFamily="@font/comicneue_bold" />
+        android:text="@string/tv_landingpage1"
+        android:textSize="30dp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/bg_ellipse_selector" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/bg_ellipse_selector_blue" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/bg_ellipse_selector" />
+
 
 </FrameLayout>

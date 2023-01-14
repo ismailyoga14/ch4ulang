@@ -10,7 +10,7 @@ import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.AppCompatImageView
 import androidx.appcompat.widget.AppCompatTextView
-import androidx.core.widget.doOnTextChanged
+import com.challenge.ulangch4.content.IntroductionActivity
 import com.challenge.ulangch4.databinding.ActivityAlertdialogBinding
 
 
@@ -51,7 +51,7 @@ class MainActivity : AppCompatActivity() {
         ivclose = findViewById(R.id.iv_close)
         tvpemain = findViewById(R.id.tv_pemain)
 
-        tvpemain.text = namapemain
+        tvpemain.text = "$namapemain"
 
     }
 
@@ -113,7 +113,7 @@ class MainActivity : AppCompatActivity() {
     private fun showWinner(res: Int) {
         when (res) {
             0 -> {
-                val desc = "kamu menang"
+                val desc = "$namapemain menang"
                 dialogConfirmation("yoga", desc)
                 tvversus.setText(desc)
             } //player 1 win
@@ -211,13 +211,13 @@ class MainActivity : AppCompatActivity() {
                 clearScore()
             }
             btnToMenu.setOnClickListener {
-                Toast.makeText(this@MainActivity, "Kembali ke Menu", Toast.LENGTH_SHORT)
+                Toast.makeText(this@MainActivity, "Kembali ke Menu Utama", Toast.LENGTH_SHORT)
                     .show()
                 val intent = Intent(this@MainActivity, Welcome::class.java)
+                intent.putExtra(KEY_NAME, namapemain)
                 startActivity(intent)
             }
             tvTitle.setText(desc)
-                // TODO: set string text view with desc
 
         }
         alertDialog.show()

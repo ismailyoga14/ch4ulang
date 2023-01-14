@@ -4,56 +4,85 @@
     android:id="@+id/fr_content_three"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".IntroductionOneFragment">
+    tools:context=".content.IntroductionOneFragment">
 
-    <androidx.appcompat.widget.AppCompatImageView
-        android:layout_width="250dp"
-        android:layout_height="200dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="150dp"
-        android:background="@drawable/landing_page3" />
-
-    <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/tv_landingpage3"
-        android:layout_width="400dp"
-        android:layout_height="60dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="360dp"
-        android:fontFamily="@font/comicneue_bold"
-        android:gravity="center_horizontal"
-        android:text="@string/tv_lamdingpage3"
-        android:textSize="30dp" />
-
-    <EditText
-        android:id="@+id/et_nama"
+    <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginTop="410dp" />
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center|center_horizontal">
 
-    <Button
-        android:id="@+id/btn_mulai"
-        android:layout_width="101dp"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="280dp"
-        android:layout_marginTop="450dp"
-        android:layout_marginRight="20dp"
-        android:text="next"
-        android:backgroundTint="@color/black"
-        android:textColor="@android:color/white" />
 
-    <!--    <androidx.appcompat.widget.AppCompatButton-->
-<!--        android:id="@+id/btn_mulai"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_marginLeft="280dp"-->
-<!--        android:layout_marginRight="20dp"-->
-<!--        android:layout_marginTop="480dp"-->
-<!--        android:onClick="buttonclick"-->
-<!--        android:background="@drawable/bg_ellipse_selector_red"-->
-<!--        android:fontFamily="@font/comicneue_bold"-->
-<!--        android:text="Next"-->
-<!--        android:textSize="20sp" />-->
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="150dp"
+            android:background="@drawable/landing_page3" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_landingpage3"
+            android:layout_width="400dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginS="360dp"
+            android:fontFamily="@font/comicneue_bold"
+            android:gravity="center"
+            android:text="@string/tv_lamdingpage3"
+            android:textSize="30dp" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/et_nama"
+            android:layout_width="350dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="20dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_mulai"
+            android:layout_width="101dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="@color/black"
+            android:text="next"
+            android:textColor="@android:color/white" />
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginLeft="170dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg_ellipse_selector" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg_ellipse_selector" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg_ellipse_selector_blue" />
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
 
 </FrameLayout>
