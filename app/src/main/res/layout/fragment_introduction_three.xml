@@ -25,7 +25,6 @@
             android:layout_width="400dp"
             android:layout_height="40dp"
             android:layout_gravity="center_horizontal"
-            android:layout_marginS="360dp"
             android:fontFamily="@font/comicneue_bold"
             android:gravity="center"
             android:text="@string/tv_lamdingpage3"
@@ -50,36 +49,6 @@
             android:text="next"
             android:textColor="@android:color/white" />
 
-
-        <androidx.appcompat.widget.LinearLayoutCompat
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
-
-
-            <androidx.appcompat.widget.AppCompatTextView
-                android:layout_width="15dp"
-                android:layout_height="15dp"
-                android:layout_marginLeft="170dp"
-                android:layout_marginTop="20dp"
-                android:background="@drawable/bg_ellipse_selector" />
-
-            <androidx.appcompat.widget.AppCompatTextView
-                android:layout_width="15dp"
-                android:layout_height="15dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="20dp"
-                android:background="@drawable/bg_ellipse_selector" />
-
-            <androidx.appcompat.widget.AppCompatTextView
-                android:layout_width="15dp"
-                android:layout_height="15dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="20dp"
-                android:background="@drawable/bg_ellipse_selector_blue" />
-
-
-        </androidx.appcompat.widget.LinearLayoutCompat>
 
 
 

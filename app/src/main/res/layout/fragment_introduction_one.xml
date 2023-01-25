@@ -25,26 +25,5 @@
         android:text="@string/tv_landingpage1"
         android:textSize="30dp" />
 
-    <androidx.appcompat.widget.AppCompatTextView
-        android:layout_width="15dp"
-        android:layout_height="15dp"
-        android:layout_marginLeft="190dp"
-        android:layout_marginTop="500dp"
-        android:background="@drawable/bg_ellipse_selector" />
-
-    <androidx.appcompat.widget.AppCompatTextView
-        android:layout_width="15dp"
-        android:layout_height="15dp"
-        android:layout_marginLeft="170dp"
-        android:layout_marginTop="500dp"
-        android:background="@drawable/bg_ellipse_selector_blue" />
-
-    <androidx.appcompat.widget.AppCompatTextView
-        android:layout_width="15dp"
-        android:layout_height="15dp"
-        android:layout_marginLeft="210dp"
-        android:layout_marginTop="500dp"
-        android:background="@drawable/bg_ellipse_selector" />
-
 
 </FrameLayout>
