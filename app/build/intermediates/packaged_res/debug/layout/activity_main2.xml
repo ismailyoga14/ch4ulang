@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dp"
+    tools:context=".MainActivity"
+    tools:viewBindingIgnore="true"
+    tools:ignore="MissingClass">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/ivclose"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="300dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/close"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="220dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:background="@drawable/splash_screen1"/>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tvpemain"
+                    android:layout_width="60dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/comicneue_bold"
+                    android:text="kamu"
+                    android:textColor="@color/blue"
+                    android:textSize="20sp" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tvpemain2"
+                    android:layout_width="90dp"
+                    android:layout_height="40dp"
+                    android:text="Pemain 2"
+                    android:layout_marginLeft="200dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/comicneue_bold"
+                    android:textColor="@color/blue"/>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/ivbatu"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/batu"
+                    android:text="batu"
+                    />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/ivbatucom"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="200dp"
+                    android:src="@drawable/batu" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/ivgunting"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/gunting" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tvvs"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:rotation="0"
+                    android:gravity="center"
+                    android:text="@string/tv_vs"
+                    android:fontFamily="@font/comicneue_bold"
+                    android:textColor="@color/red"
+                    android:textSize="25sp" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/ivguntingcom"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/gunting" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/ivkertas"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/kertas" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/ivkertascom"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="200dp"
+                    android:src="@drawable/kertas" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/ivrefresh"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="300dp"
+                    android:src="@drawable/refresh" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    </ScrollView>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

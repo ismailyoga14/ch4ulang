@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "D:\\Kotlin\\ch4ulang\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_intro_adapter.xml",
+        "source": "D:\\Kotlin\\ch4ulang\\app\\src\\main\\res\\layout\\fragment_intro_adapter.xml"
+    },
+    {
+        "merged": "D:\\Kotlin\\ch4ulang\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_introduction_three.xml",
+        "source": "D:\\Kotlin\\ch4ulang\\app\\src\\main\\res\\layout\\fragment_introduction_three.xml"
+    },
+    {
+        "merged": "D:\\Kotlin\\ch4ulang\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_alertdialog.xml",
+        "source": "D:\\Kotlin\\ch4ulang\\app\\src\\main\\res\\layout\\activity_alertdialog.xml"
+    },
+    {
+        "merged": "D:\\Kotlin\\ch4ulang\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_recycler_view.xml",
+        "source": "D:\\Kotlin\\ch4ulang\\app\\src\\main\\res\\layout\\activity_recycler_view.xml"
+    },
+    {
+        "merged": "D:\\Kotlin\\ch4ulang\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_welcome.xml",
+        "source": "D:\\Kotlin\\ch4ulang\\app\\src\\main\\res\\layout\\activity_welcome.xml"
+    },
+    {
+        "merged": "D:\\Kotlin\\ch4ulang\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_introduction.xml",
+        "source": "D:\\Kotlin\\ch4ulang\\app\\src\\main\\res\\layout\\activity_introduction.xml"
+    },
+    {
+        "merged": "D:\\Kotlin\\ch4ulang\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_introduction_one.xml",
+        "source": "D:\\Kotlin\\ch4ulang\\app\\src\\main\\res\\layout\\fragment_introduction_one.xml"
+    },
+    {
+        "merged": "D:\\Kotlin\\ch4ulang\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_introduction_two.xml",
+        "source": "D:\\Kotlin\\ch4ulang\\app\\src\\main\\res\\layout\\fragment_introduction_two.xml"
+    },
+    {
+        "merged": "D:\\Kotlin\\ch4ulang\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_data.xml",
+        "source": "D:\\Kotlin\\ch4ulang\\app\\src\\main\\res\\layout\\item_data.xml"
+    },
+    {
+        "merged": "D:\\Kotlin\\ch4ulang\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_splash.xml",
+        "source": "D:\\Kotlin\\ch4ulang\\app\\src\\main\\res\\layout\\activity_splash.xml"
+    }
+]

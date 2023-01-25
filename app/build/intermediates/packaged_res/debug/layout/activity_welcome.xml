@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:ignore="MissingClass">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:padding="50dp">
+
+            <TextView
+                android:id="@+id/tv_welcome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pilih Lawanmu"
+                android:textSize="38dp"
+                android:fontFamily="@font/comicneue_bold"
+                android:gravity="center"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/iv_lawan_pemain"
+                android:layout_width="220dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/landing_page1"
+                android:layout_gravity="center"/>
+            <TextView
+                android:id="@+id/tv_lawan_pemain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="nama vs Pemain 2"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:fontFamily="@font/comicneue_bold"/>
+
+            <ImageView
+                android:id="@+id/iv_lawan_com"
+                android:layout_width="220dp"
+                android:layout_height="150dp"
+                android:background="@drawable/landing_page2"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/tv_lawan_com"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="nama vs COM"
+                android:textSize="25sp"
+                android:fontFamily="@font/comicneue_bold"
+                android:gravity="center"/>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
