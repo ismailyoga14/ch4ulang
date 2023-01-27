@@ -10,7 +10,7 @@
         android:layout_width="250dp"
         android:layout_height="200dp"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="150dp"
+        android:layout_marginTop="100dp"
         android:background="@drawable/landing_page2"/>
 
 
@@ -19,7 +19,7 @@
         android:layout_width="300dp"
         android:layout_height="100dp"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="360dp"
+        android:layout_marginTop="300dp"
         android:text="@string/tv_lamdingpage2"
         android:textSize="30dp"
         android:gravity="center_horizontal"

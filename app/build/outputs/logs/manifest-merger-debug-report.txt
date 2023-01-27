@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:2:1-48:12
-INJECTED from D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:2:1-48:12
-INJECTED from D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:2:1-48:12
-INJECTED from D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:2:1-48:12
+ADDED from D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:2:1-45:12
 MERGED from [androidx.databinding:viewbinding:7.1.2] C:\Users\HP_Z240\.gradle\caches\transforms-3\e0aeb0b0042ea44b83ded6fa728e420c\transformed\viewbinding-7.1.2\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.7.0] C:\Users\HP_Z240\.gradle\caches\transforms-3\b1c68b7b029e7e27d3cf4c86545f30f9\transformed\material-1.7.0\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\HP_Z240\.gradle\caches\transforms-3\6ad96f94a12a8d21f47af9109ad0e965\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
@@ -49,22 +49,22 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\HP_Z240\.gradle\
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\HP_Z240\.gradle\caches\transforms-3\9a21d9c05fb329400bb70a93fc0294e6\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\HP_Z240\.gradle\caches\transforms-3\e0f991915f63ad9387f1e0a30d44d5bb\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\HP_Z240\.gradle\caches\transforms-3\ada055f94b0dcd39229e16b756c2bf69\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:2:1-48:12
-INJECTED from D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:2:1-48:12
-INJECTED from D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:2:1-45:12
 	package
 		ADDED from D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:4:5-37
 		INJECTED from D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml
-		ADDED from D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:2:1-48:12
+		ADDED from D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:2:1-45:12
 		INJECTED from D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml
-		ADDED from D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:2:1-48:12
+		ADDED from D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:2:1-45:12
 		INJECTED from D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:2:11-69
@@ -89,7 +89,7 @@ ADDED from D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:10:5-65
 	android:name
 		ADDED from D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:10:22-62
 application
-ADDED from D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:12:5-46:19
+ADDED from D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:12:5-43:19
 MERGED from [com.google.android.material:material:1.7.0] C:\Users\HP_Z240\.gradle\caches\transforms-3\b1c68b7b029e7e27d3cf4c86545f30f9\transformed\material-1.7.0\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.7.0] C:\Users\HP_Z240\.gradle\caches\transforms-3\b1c68b7b029e7e27d3cf4c86545f30f9\transformed\material-1.7.0\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\HP_Z240\.gradle\caches\transforms-3\6ad96f94a12a8d21f47af9109ad0e965\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -128,52 +128,46 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\HP_Z240\.gradle\ca
 		ADDED from D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:20:9-46
 	android:dataExtractionRules
 		ADDED from D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:14:9-65
-activity#com.challenge.ulangch4.MainActivity2
-ADDED from D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:22:9-24:40
-	android:exported
-		ADDED from D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:24:13-37
-	android:name
-		ADDED from D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:23:13-42
-activity#com.challenge.ulangch4.Cycle.RecyclerViewActivity
-ADDED from D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:25:9-27:40
-	android:exported
-		ADDED from D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:27:13-37
-	android:name
-		ADDED from D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:26:13-55
 activity#com.challenge.ulangch4.Splash
-ADDED from D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:28:9-36:20
+ADDED from D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:22:9-30:20
 	android:exported
-		ADDED from D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:30:13-36
+		ADDED from D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:24:13-36
 	android:name
-		ADDED from D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:29:13-35
+		ADDED from D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:23:13-35
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:31:13-35:29
+ADDED from D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:25:13-29:29
 action#android.intent.action.MAIN
-ADDED from D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:32:17-69
+ADDED from D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:26:17-69
 	android:name
-		ADDED from D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:32:25-66
+		ADDED from D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:26:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:34:17-77
+ADDED from D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:28:17-77
 	android:name
-		ADDED from D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:34:27-74
+		ADDED from D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:28:27-74
 activity#com.challenge.ulangch4.content.IntroductionActivity
+ADDED from D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:31:9-33:40
+	android:exported
+		ADDED from D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:33:13-37
+	android:name
+		ADDED from D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:32:13-57
+activity#com.challenge.ulangch4.Welcome
+ADDED from D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:34:9-36:40
+	android:exported
+		ADDED from D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:36:13-37
+	android:name
+		ADDED from D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:35:13-36
+activity#com.challenge.ulangch4.MainActivity
 ADDED from D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:37:9-39:40
 	android:exported
 		ADDED from D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:39:13-37
 	android:name
-		ADDED from D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:38:13-57
-activity#com.challenge.ulangch4.Welcome
+		ADDED from D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:38:13-41
+activity#com.challenge.ulangch4.GameOn
 ADDED from D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:40:9-42:40
 	android:exported
 		ADDED from D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:42:13-37
 	android:name
-		ADDED from D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:41:13-36
-activity#com.challenge.ulangch4.MainActivity
-ADDED from D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:43:9-45:40
-	android:exported
-		ADDED from D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:45:13-37
-	android:name
-		ADDED from D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:44:13-41
+		ADDED from D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:41:13-35
 uses-sdk
 INJECTED from D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml

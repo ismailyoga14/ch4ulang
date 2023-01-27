@@ -15,4 +15,12 @@
     <string name="tv_landingpage1">Bermain suit melawan sesama pemain.</string>
     <string name="tv_lamdingpage2">Bermain suit melawan computer</string>
     <string name="tv_lamdingpage3">Tuliskan namamu di bawah.</string>
+    <string name="pemain_2">Pemain 2</string>
+    <string name="kamu">kamu</string>
+    <string name="batu">batu</string>
+    <string name="com">COM</string>
+    <string name="hasil_permainan">Hasil Permainan</string>
+    <string name="main_lagi">main lagi</string>
+    <string name="kembali_ke_menu">Kembali ke menu</string>
+    <string name="pemain_1">pemain 1</string>
 </resources>

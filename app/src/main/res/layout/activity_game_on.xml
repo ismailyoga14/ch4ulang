@@ -4,10 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginLeft="10dp"
-    tools:context=".MainActivity"
+    android:layout_marginStart="10dp"
+    tools:context="GameOn"
     tools:viewBindingIgnore="true"
-    tools:ignore="MissingClass">
+    tools:ignore="MissingClass"
+    >
 
     <ScrollView
         android:layout_width="match_parent"
@@ -44,7 +45,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:fontFamily="@font/comicneue_bold"
-                    android:text="kamu"
+                    android:text="@string/kamu"
                     android:textColor="@color/blue"
                     android:textSize="20sp" />
 
@@ -52,12 +53,13 @@
                     android:id="@+id/tvpemain2"
                     android:layout_width="90dp"
                     android:layout_height="40dp"
-                    android:text="Pemain 2"
-                    android:layout_marginLeft="200dp"
+                    android:text="@string/pemain_2"
+                    android:layout_marginStart="200dp"
                     android:layout_marginTop="10dp"
                     android:textSize="20sp"
                     android:fontFamily="@font/comicneue_bold"
                     android:textColor="@color/blue"/>
+
             </androidx.appcompat.widget.LinearLayoutCompat>
 
 
@@ -70,15 +72,14 @@
                     android:id="@+id/ivbatu"
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:src="@drawable/batu"
-                    android:text="batu"
-                    />
+                    android:layout_marginStart="0dp"
+                    android:src="@drawable/batu" />
 
                 <androidx.appcompat.widget.AppCompatImageView
                     android:id="@+id/ivbatucom"
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:layout_marginLeft="200dp"
+                    android:layout_marginStart="200dp"
                     android:src="@drawable/batu" />
             </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -129,7 +130,7 @@
                     android:id="@+id/ivkertascom"
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:layout_marginLeft="200dp"
+                    android:layout_marginStart="200dp"
                     android:src="@drawable/kertas" />
 
             </androidx.appcompat.widget.LinearLayoutCompat>
@@ -144,8 +145,9 @@
                     android:id="@+id/ivrefresh"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
-                    android:layout_marginLeft="300dp"
+                    android:layout_marginStart="300dp"
                     android:src="@drawable/refresh" />
+
             </androidx.appcompat.widget.LinearLayoutCompat>
 
         </androidx.appcompat.widget.LinearLayoutCompat>

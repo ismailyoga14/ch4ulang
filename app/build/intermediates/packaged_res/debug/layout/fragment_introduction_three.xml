@@ -17,7 +17,7 @@
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="150dp"
+            android:layout_marginTop="100dp"
             android:background="@drawable/landing_page3" />
 
         <androidx.appcompat.widget.AppCompatTextView
@@ -36,6 +36,7 @@
             android:layout_height="75dp"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="0dp"
+            android:maxLines="1"
             android:layout_marginRight="20dp" />
 
         <androidx.appcompat.widget.AppCompatButton

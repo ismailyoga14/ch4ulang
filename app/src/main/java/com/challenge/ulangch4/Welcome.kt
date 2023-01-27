@@ -34,7 +34,7 @@ class Welcome : AppCompatActivity() {
     private fun setAction() {
         binding.apply {
             ivLawanPemain.setOnClickListener {
-                val intent = Intent(this@Welcome, MainActivity2::class.java)
+                val intent = Intent(this@Welcome, GameOn::class.java)
                 intent.putExtra(KEY_NAME, namapemain)
                 startActivity(intent)
             }
@@ -43,7 +43,6 @@ class Welcome : AppCompatActivity() {
                 intent.putExtra(KEY_NAME, namapemain)
                 startActivity(intent)
             }
-
         }
     }
 

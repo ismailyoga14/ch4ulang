@@ -23,7 +23,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/comicneue_bold"
                 android:gravity="center"
-                android:text="Hasil Permainan"
+                android:text="@string/hasil_permainan"
                 android:textSize="25sp" />
 
             <androidx.appcompat.widget.AppCompatTextView
@@ -41,7 +41,7 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/bg_ellipse_selector"
                 android:backgroundTint="@color/ungu"
-                android:text="main lagi"
+                android:text="@string/main_lagi"
                 android:textSize="20sp"
                 android:fontFamily="@font/comicneue_bold"/>
 
@@ -53,7 +53,7 @@
                 android:background="@drawable/bg_ellipse_selector"
                 android:backgroundTint="@color/yellow1"
                 android:fontFamily="@font/comicneue_bold"
-                android:text="Kembali ke menu" />
+                android:text="@string/kembali_ke_menu" />
 
 
         </androidx.appcompat.widget.LinearLayoutCompat>

@@ -32,6 +32,10 @@
         "source": "D:\\Kotlin\\ch4ulang\\app\\src\\main\\res\\layout\\fragment_introduction_two.xml"
     },
     {
+        "merged": "D:\\Kotlin\\ch4ulang\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_game_two.xml",
+        "source": "D:\\Kotlin\\ch4ulang\\app\\src\\main\\res\\layout\\activity_game_two.xml"
+    },
+    {
         "merged": "D:\\Kotlin\\ch4ulang\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_data.xml",
         "source": "D:\\Kotlin\\ch4ulang\\app\\src\\main\\res\\layout\\item_data.xml"
     },

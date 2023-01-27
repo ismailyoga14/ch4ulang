@@ -27,7 +27,7 @@
 15-->D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:10:22-62
 16
 17    <application
-17-->D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:12:5-46:19
+17-->D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:12:5-43:19
 18        android:allowBackup="true"
 18-->D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:13:9-35
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -49,74 +49,68 @@
 28        android:theme="@style/Theme.Ulangch4" >
 28-->D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:20:9-46
 29        <activity
-29-->D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:22:9-24:40
-30            android:name="com.challenge.ulangch4.MainActivity2"
-30-->D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:23:13-42
-31            android:exported="false" />
-31-->D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:24:13-37
-32        <activity
-32-->D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:25:9-27:40
-33            android:name="com.challenge.ulangch4.Cycle.RecyclerViewActivity"
-33-->D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:26:13-55
-34            android:exported="false" />
-34-->D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:27:13-37
-35        <activity
-35-->D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:28:9-36:20
-36            android:name="com.challenge.ulangch4.Splash"
-36-->D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:29:13-35
-37            android:exported="true" >
-37-->D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:30:13-36
-38            <intent-filter>
-38-->D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:31:13-35:29
-39                <action android:name="android.intent.action.MAIN" />
-39-->D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:32:17-69
-39-->D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:32:25-66
-40
-41                <category android:name="android.intent.category.LAUNCHER" />
-41-->D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:34:17-77
-41-->D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:34:27-74
-42            </intent-filter>
-43        </activity>
+29-->D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:22:9-30:20
+30            android:name="com.challenge.ulangch4.Splash"
+30-->D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:23:13-35
+31            android:exported="true" >
+31-->D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:24:13-36
+32            <intent-filter>
+32-->D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:25:13-29:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:26:17-69
+33-->D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:26:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:28:17-77
+35-->D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:28:27-74
+36            </intent-filter>
+37        </activity>
+38        <activity
+38-->D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:31:9-33:40
+39            android:name="com.challenge.ulangch4.content.IntroductionActivity"
+39-->D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:32:13-57
+40            android:exported="false" />
+40-->D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:33:13-37
+41        <activity
+41-->D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:34:9-36:40
+42            android:name="com.challenge.ulangch4.Welcome"
+42-->D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:35:13-36
+43            android:exported="false" />
+43-->D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:36:13-37
 44        <activity
 44-->D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:37:9-39:40
-45            android:name="com.challenge.ulangch4.content.IntroductionActivity"
-45-->D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:38:13-57
+45            android:name="com.challenge.ulangch4.MainActivity"
+45-->D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:38:13-41
 46            android:exported="false" />
 46-->D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:39:13-37
 47        <activity
 47-->D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:40:9-42:40
-48            android:name="com.challenge.ulangch4.Welcome"
-48-->D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:41:13-36
+48            android:name="com.challenge.ulangch4.GameOn"
+48-->D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:41:13-35
 49            android:exported="false" />
 49-->D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:42:13-37
-50        <activity
-50-->D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:43:9-45:40
-51            android:name="com.challenge.ulangch4.MainActivity"
-51-->D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:44:13-41
-52            android:exported="false" />
-52-->D:\Kotlin\ch4ulang\app\src\main\AndroidManifest.xml:45:13-37
-53
-54        <provider
-54-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HP_Z240\.gradle\caches\transforms-3\2262bcb678dabbc44f364d9f12539a92\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-55            android:name="androidx.startup.InitializationProvider"
-55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HP_Z240\.gradle\caches\transforms-3\2262bcb678dabbc44f364d9f12539a92\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-56            android:authorities="com.challenge.ulangch4.androidx-startup"
-56-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HP_Z240\.gradle\caches\transforms-3\2262bcb678dabbc44f364d9f12539a92\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-57            android:exported="false" >
-57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HP_Z240\.gradle\caches\transforms-3\2262bcb678dabbc44f364d9f12539a92\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+50
+51        <provider
+51-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HP_Z240\.gradle\caches\transforms-3\2262bcb678dabbc44f364d9f12539a92\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+52            android:name="androidx.startup.InitializationProvider"
+52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HP_Z240\.gradle\caches\transforms-3\2262bcb678dabbc44f364d9f12539a92\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+53            android:authorities="com.challenge.ulangch4.androidx-startup"
+53-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HP_Z240\.gradle\caches\transforms-3\2262bcb678dabbc44f364d9f12539a92\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+54            android:exported="false" >
+54-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HP_Z240\.gradle\caches\transforms-3\2262bcb678dabbc44f364d9f12539a92\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+55            <meta-data
+55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HP_Z240\.gradle\caches\transforms-3\2262bcb678dabbc44f364d9f12539a92\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+56                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+56-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HP_Z240\.gradle\caches\transforms-3\2262bcb678dabbc44f364d9f12539a92\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+57                android:value="androidx.startup" />
+57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HP_Z240\.gradle\caches\transforms-3\2262bcb678dabbc44f364d9f12539a92\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
 58            <meta-data
-58-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HP_Z240\.gradle\caches\transforms-3\2262bcb678dabbc44f364d9f12539a92\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-59                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-59-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HP_Z240\.gradle\caches\transforms-3\2262bcb678dabbc44f364d9f12539a92\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+58-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\HP_Z240\.gradle\caches\transforms-3\6ce6f0bf326e57245c0d401fb6c5647e\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+59                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+59-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\HP_Z240\.gradle\caches\transforms-3\6ce6f0bf326e57245c0d401fb6c5647e\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
 60                android:value="androidx.startup" />
-60-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HP_Z240\.gradle\caches\transforms-3\2262bcb678dabbc44f364d9f12539a92\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-61            <meta-data
-61-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\HP_Z240\.gradle\caches\transforms-3\6ce6f0bf326e57245c0d401fb6c5647e\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-62                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-62-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\HP_Z240\.gradle\caches\transforms-3\6ce6f0bf326e57245c0d401fb6c5647e\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-63                android:value="androidx.startup" />
-63-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\HP_Z240\.gradle\caches\transforms-3\6ce6f0bf326e57245c0d401fb6c5647e\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-64        </provider>
-65    </application>
-66
-67</manifest>
+60-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\HP_Z240\.gradle\caches\transforms-3\6ce6f0bf326e57245c0d401fb6c5647e\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+61        </provider>
+62    </application>
+63
+64</manifest>

@@ -32,42 +32,16 @@ class IntroductionActivity : AppCompatActivity() {
             }.attach()
         }
 
-
     }
-
-    private fun setName() {
-        binding.apply {
-            val etnama = findViewById<EditText>(R.id.et_nama)
-            intent = Intent(this@IntroductionActivity, Welcome::class.java)
-            intent.putExtra("", etnama.getText().toString())
-            startActivity(intent);
-        }
-    }
-
-
-
     override fun onBackPressed() {
 //        val pagerAdapter = ScreenSlidePagerAdapter(this)
 //        viewPager.adapter = pagerAdapter
         if (viewPager.currentItem == 0) {
-            // If the user is currently looking at the first step, allow the system to handle the
-            // Back button. This calls finish() on this activity and pops the back stack.
             super.onBackPressed()
         } else {
-            // Otherwise, select the previous step.
             viewPager.currentItem = viewPager.currentItem - 1
         }
     }
-//
-//    /**
-//     * A simple pager adapter that represents 5 ScreenSlidePageFragment objects, in
-//     * sequence.
-//     */
-//    private inner class ScreenSlidePagerAdapter(fa: FragmentActivity) : FragmentStateAdapter(fa) {
-//        override fun getItemCount(): Int = NUM_PAGES
-//
-//        override fun createFragment(position: Int): Fragment = ScreenSlidePageFragment()
-//    }
 
 }
 

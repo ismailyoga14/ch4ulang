@@ -27,12 +27,6 @@
         android:testOnly="true"
         android:theme="@style/Theme.Ulangch4" >
         <activity
-            android:name="com.challenge.ulangch4.MainActivity2"
-            android:exported="false" />
-        <activity
-            android:name="com.challenge.ulangch4.Cycle.RecyclerViewActivity"
-            android:exported="false" />
-        <activity
             android:name="com.challenge.ulangch4.Splash"
             android:exported="true" >
             <intent-filter>
@@ -49,6 +43,9 @@
             android:exported="false" />
         <activity
             android:name="com.challenge.ulangch4.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.challenge.ulangch4.GameOn"
             android:exported="false" />
 
         <provider

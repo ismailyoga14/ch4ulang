@@ -3325,9 +3325,10 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_alertdialog
+layout activity_game_on
+layout activity_game_two
 layout activity_introduction
 layout activity_main
-layout activity_main2
 layout activity_recycler_view
 layout activity_splash
 layout activity_welcome
@@ -3443,6 +3444,7 @@ string abc_toolbar_collapse_description
 string androidx_startup
 string app_name
 string appbar_scrolling_view_behavior
+string batu
 string bottom_sheet_behavior
 string bottomsheet_action_collapse
 string bottomsheet_action_expand
@@ -3454,6 +3456,7 @@ string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
 string clear_text_end_icon_content_description
+string com
 string error_a11y_label
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
@@ -3462,10 +3465,13 @@ string fab_transformation_sheet_behavior
 string hasil1
 string hasil2
 string hasil3
+string hasil_permainan
 string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string item_view_role_description
+string kamu
+string kembali_ke_menu
 string m3_sys_motion_easing_emphasized
 string m3_sys_motion_easing_emphasized_accelerate
 string m3_sys_motion_easing_emphasized_decelerate
@@ -3477,6 +3483,7 @@ string m3_sys_motion_easing_linear
 string m3_sys_motion_easing_standard
 string m3_sys_motion_easing_standard_accelerate
 string m3_sys_motion_easing_standard_decelerate
+string main_lagi
 string material_clock_display_divider
 string material_clock_toggle_content_description
 string material_hour_selection
@@ -3558,6 +3565,8 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string pemain_1
+string pemain_2
 string search_menu_title
 string status_bar_notification_info_overflow
 string tv_batu
